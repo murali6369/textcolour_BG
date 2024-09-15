@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    place-items: center;
+    background:linear-gradient(to right, rgb(169, 169, 197),rgb(194, 84, 139),rgb(86, 167, 149));
+
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 500px);
+    gap: 15px;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    place-items: center;
+    margin: 20px;
+    margin-bottom: 100px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+#text{
+    height: 500px;
+    width: 500px;
+    background-color: transparent;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+}
+#download{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: -40px;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#download:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: black;
+    color:white;
+}
+.container2{
+    height:500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 500px);
+    gap: 15px;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: white;box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.container3{
+    height:500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 500px);
+    gap: 15px;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 30px;
+    background-color: white;box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#red{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: red;
+    margin: 15px;
+}
+#red:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#green{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: green;
+    margin: 15px;
+}
+#green:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#blue{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: blue;
+    margin: 15px;
+}
+#blue:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#yellow{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: yellow;
+    margin: 15px;
+}
+#yellow:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#orange{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: orange;
+    margin: 15px;
+}
+#orange:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#brown{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: brown;
+    margin: 15px;
+}
+#brown:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#pink{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: pink;
+    margin: 15px;
+}
+#pink:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#purple{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: purple;
+    margin: 15px;
+}
+#purple:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#gray{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: gray;
+    margin: 15px;
+}
+#gray:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#cyan{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: cyan;
+    margin: 15px;
+}
+#cyan:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+
+#maroon{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: maroon;
+    margin: 15px;
+}
+#maroon:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+
+#magenta{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: magenta;
+    margin: 15px;
+}
+#magenta:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+
+
+#bred{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: red;
+    margin: 15px;
+}
+#bred:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#bgreen{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: green;
+    margin: 15px;
+}
+#bgreen:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#bblue{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: blue;
+    margin: 15px;
+}
+#bblue:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#byellow{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: yellow;
+    margin: 15px;
+}
+#byellow:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#borange{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: orange;
+    margin: 15px;
+}
+#borange:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#bbrown{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: brown;
+    margin: 15px;
+}
+#bbrown:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#bpink{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: pink;
+    margin: 15px;
+}
+#bpink:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#bpurple{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: purple;
+    margin: 15px;
+}
+#bpurple:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#bgray{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: gray;
+    margin: 15px;
+}
+#bgray:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#bcyan{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: cyan;
+    margin: 15px;
+}
+#bcyan:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+
+#bmaroon{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: maroon;
+    margin: 15px;
+}
+#bmaroon:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+
+#bmagenta{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: magenta;
+    margin: 15px;
+}
+#bmagenta:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#reset{
+    width: 90px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#breset{
+    width: 90px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#breset:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+#reset:hover{
+    box-shadow: 0px 0px 5px 1px;
+}
+
+
+
